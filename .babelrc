@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "12.18.0",
+          "esmodules": false
+        }
+      }
+    ],
+    "@babel/preset-typescript"
+  ],
+  "plugins": ["@babel/transform-arrow-functions"]
+}
